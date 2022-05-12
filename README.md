@@ -1,6 +1,11 @@
-# ood-multi-opt
- 
- 
-- train_OOD.py is the main file showing how the optimization is done
+# OOD-enhance-loss
 
-- models.py class multi_task_baseline is the backbone model
+### Environment
+Pls see file `environment.txt`
+
+### Implementation
+ 
+- `train_OOD.py` is the main file.
+- in `models.py`, `class multi_task_baseline` is the backbone model
+- `ood_enhance_loss.py` is the core functionality to implement the proposed OOD_enhance_loss
+- in `trainer.py`, `def trainer_alternative_1_loop()` present how to use OOD_enhance_loss in alternative training
